@@ -1,0 +1,88 @@
+/* section navbar */
+
+.pkmnapp-section-navbar-span {
+    font-family: Ubuntu;
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
+}
+
+.pkmn-navbar {
+    background-color: #D9D9D9;
+}
+
+
+/* section banner */
+
+.pkmnapp-section-banner {
+    padding-top: 58px;
+    padding-bottom: 91px;
+}
+
+.pkmnapp-section-banner__col {
+    background-color: black;
+}
+
+.pkmnapp-section-banner h1 {
+    font-family: Ubuntu;
+    font-weight: 400;
+    font-size: 48px;
+    color: white;
+    text-align: center;
+    padding-top: 104px;
+    padding-bottom: 104px;
+}
+
+/* section main */
+
+.pkmnapp-section-main {
+    padding-bottom: 86px;
+}
+
+.pkmnapp-button-gen {
+    text-align: center;
+    padding-top: 36px;
+}
+
+.pkmnapp-btn {
+    width: 100%;
+    font-family: Ubuntu;
+    font-weight: 400;
+    font-size: 24px;
+    border: none;
+    background-color: #D9D9D9;
+}
+
+.pkmnapp-section-main-pkmn {
+    background-color: #D9D9D9;
+    text-align: center;
+    padding-top:62px;
+    padding-bottom: 62px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+.pkmnapp-section-main-pkmn--char {
+    padding-top:18px;
+    padding-bottom: 52px;
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
+.pkmnapp-section-main-pkmn--bul {
+    padding-top:52px;
+    padding-bottom: 87px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+/* section footer */
+
+.pkmnapp-section-footer {
+    padding-bottom: 131px;
+}
+
+.pkmnapp-section-footer p {
+    font-family: Ubuntu;
+    font-weight: 400;
+    font-size:24px;
+}
