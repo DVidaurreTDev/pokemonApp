@@ -45,27 +45,27 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <div class="pkmnapp-section-main-pkmn">
+                    <div class="pkmnapp-section-main-pkmn pkmnapp-section-main-pkmn--water">
                         <img src="css/images/squirtle-8-bit-pokemon-squirtle-1526288 1.png" alt=""><br>
                     </div>
                     <div class="pkmnapp-button-gen">
-                        <button class="pkmnapp-btn">Select</button>
+                        <button class="pkmnapp-btn pkmnapp-btn--water" data-bs-toggle="modal" data-bs-target="#squirtlemodal">Select</button>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="pkmnapp-section-main-pkmn pkmnapp-section-main-pkmn--char">
+                    <div class="pkmnapp-section-main-pkmn pkmnapp-section-main-pkmn--char pkmnapp-section-main-pkmn--fire">
                         <img src="css/images/charmander-8-bit-charmander-1643997 (1) 1.png" alt=""><br>
                     </div>
                     <div class="pkmnapp-button-gen">
-                        <button class="pkmnapp-btn">Select</button>
+                        <button class="pkmnapp-btn pkmnapp-btn--fire" data-bs-toggle="modal" data-bs-target="#charmodal">Select</button>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="pkmnapp-section-main-pkmn pkmnapp-section-main-pkmn--bul">
+                    <div class="pkmnapp-section-main-pkmn pkmnapp-section-main-pkmn--bul pkmnapp-section-main-pkmn--grass">
                         <img src="css/images/pngwing 1.png" alt=""><br>
                     </div>
                     <div class="pkmnapp-button-gen">
-                        <button class="pkmnapp-btn">Select</button>
+                        <button class="pkmnapp-btn pkmnapp-btn--grass" data-bs-toggle="modal" data-bs-target="#bulmodal">Select</button>
                     </div>
                 </div>
             </div>
@@ -82,6 +82,184 @@
         </div>
     </section>
 
+    <!-- section modals  -->
+
+    <div class="modal fade" id="squirtlemodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header modal-header--custom">
+              <h5 class="modal-title" id="exampleModalLabel">You are Chosing <span class="pkmnapp-section-modals-span1">Squirtle</span></h5>
+            </div>
+            <div class="modal-body">
+              <div class="conatiner">
+                <div class="row">
+                    <div class="col-md-6 pkmnapp-section-modal-squirtle">
+                        <img src="css/images/squirtle-8-bit-pokemon-squirtle-1526288 1.png" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="pkmnapp-table">
+                          <table class="table">
+                            <thead>
+                              <tr>
+                                <th scope="col">Lv</th>
+                                <th scope="col">Move</th>
+                                <th scope="col">Power</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row">1</th>
+                                <td>Scratch</td>
+                                <td>40</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">4</th>
+                                <td>Ember</td>
+                                <td>40</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">8</th>
+                                <td>Smokescreen</td>
+                                <td>--</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">12</th>
+                                <td>Dragon Breath</td>
+                                <td>60</td>
+                              </tr>
+                            </tbody>
+                        </table>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer modal-footer--custom">
+              <button class="pkmnapp-button-squirtle1">Confirm</button>
+              <button class="pkmnapp-button-squirtle2" data-bs-dismiss="modal" aria-label="Close">Cancel</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="charmodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header modal-header--custom">
+              <h5 class="modal-title" id="exampleModalLabel">You are Chosing <span class="pkmnapp-section-modals-span2">Charmander</span></h5>
+            </div>
+            <div class="modal-body">
+                <div class="conatiner">
+                  <div class="row">
+                      <div class="col-md-6 pkmnapp-section-modal-char">
+                          <img src="css/images/charmander-8-bit-charmander-1643997 (1) 1.png" alt="">
+                      </div>
+                      <div class="col-md-6">
+                        <div class="pkmnapp-table">
+                          <table class="table">
+                            <thead>
+                              <tr>
+                                <th scope="col">Lv</th>
+                                <th scope="col">Move</th>
+                                <th scope="col">Power</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row">1</th>
+                                <td>Scratch</td>
+                                <td>40</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">4</th>
+                                <td>Ember</td>
+                                <td>40</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">8</th>
+                                <td>Smokescreen</td>
+                                <td>--</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">12</th>
+                                <td>Dragon Breath</td>
+                                <td>60</td>
+                              </tr>
+                            </tbody>
+                        </table>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            <div class="modal-footer modal-footer--custom">
+                <button class="pkmnapp-button-char1">Confirm</button>
+                <button class="pkmnapp-button-char2" data-bs-dismiss="modal" aria-label="Close">Cancel</button>
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="bulmodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header modal-header--custom">
+              <h5 class="modal-title" id="exampleModalLabel">You are Chosing <span class="pkmnapp-section-modals-span3">Bulbasaur</span></h5>
+            </div>
+            <div class="modal-body">
+                <div class="conatiner">
+                  <div class="row">
+                      <div class="col-md-6 pkmnapp-section-modal-bul">
+                          <img src="css/images/pngwing 1.png" alt="">
+                      </div>
+                      <div class="col-md-6">
+                        <div class="pkmnapp-table">
+                          <table class="table">
+                            <thead>
+                              <tr>
+                                <th scope="col">Lv</th>
+                                <th scope="col">Move</th>
+                                <th scope="col">Power</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row">1</th>
+                                <td>Scratch</td>
+                                <td>40</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">4</th>
+                                <td>Ember</td>
+                                <td>40</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">8</th>
+                                <td>Smokescreen</td>
+                                <td>--</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">12</th>
+                                <td>Dragon Breath</td>
+                                <td>60</td>
+                              </tr>
+                            </tbody>
+                        </table>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            <div class="modal-footer modal-footer--custom">
+                <button class="pkmnapp-button-bul1">Confirm</button>
+                <button class="pkmnapp-button-bul2" data-bs-dismiss="modal" aria-label="Close">Cancel</button>
+              </div>
+          </div>
+        </div>
+      </div>
+
+
     <script src="js/vendors/vendors.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

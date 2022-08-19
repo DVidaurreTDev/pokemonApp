@@ -86,3 +86,119 @@
     font-weight: 400;
     font-size:24px;
 }
+
+/* section modals */
+
+.modal-header--custom {
+    border-bottom: none;
+    padding-top: 76px;
+    padding-left: 60px;
+}
+
+.modal-footer--custom {
+    border-top: none;
+    padding-right: 90px;
+    padding-bottom: 40px;
+}
+
+.modal-header h5 {
+    font-family: Ubuntu;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.pkmnapp-section-modals-span1 {
+    color: blue;
+}
+
+.pkmnapp-section-modals-span2 {
+    color: red;
+}
+
+.pkmnapp-section-modals-span3 {
+    color: green
+}
+
+.pkmnapp-section-modal-squirtle {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 130px;
+}
+
+.pkmnapp-section-modal-char {
+    text-align: center;
+    padding-bottom: 130px;
+}
+
+.pkmnapp-section-modal-bul {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 130px;
+}
+
+.table th {
+    border: none;
+}
+
+.table td {
+    border: none;
+}
+
+.pkmnapp-button-squirtle1 {
+    background-color:#3BA7F4;
+    border: none;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.pkmnapp-button-squirtle2 {
+    background-color: #89FFEA;
+    border: none;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.pkmnapp-button-char1 {
+    background-color: #FD9C2A;
+    border: none;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.pkmnapp-button-char2 {
+    background-color:#FFE3C1;
+    border: none;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.pkmnapp-button-bul1 {
+    background-color: #5BCB27;
+    border: none;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.pkmnapp-button-bul2 {
+    background-color: #B8FF9F;
+    border: none;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.pkmnapp-table {
+    padding-right: 150px;
+}
+
