@@ -202,3 +202,23 @@
     padding-right: 150px;
 }
 
+
+/* mediaquery */
+
+
+@media (max-width: 600px) {
+
+    .pkmnapp-btn {
+        padding-top: 15px ;
+        padding-bottom: 15px ;
+    }
+
+    .pkmnapp-button-gen {
+        padding-top: 20px;
+        padding-bottom: 60px;
+    }
+
+    .pkmnapp-section-footer {
+        padding-top: none ;
+    }
+}
