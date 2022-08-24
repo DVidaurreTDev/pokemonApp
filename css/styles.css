@@ -221,4 +221,30 @@
     .pkmnapp-section-footer {
         padding-top: none ;
     }
+
+    .pkmnapp-table {
+        padding-left: 65px;
+    }
+
+    .pkmnapp-section-modal-char {
+        padding-bottom: 50px;
+    }
+
+    .pkmnapp-section-modal-squirtle {
+        padding-bottom: 70px;
+    }
+
+    .pkmnapp-section-modal-bul {
+        padding-bottom: 65px;
+    }
+
+    .pkmnapp-media-btn {
+        padding-top:15px;
+        padding-bottom: 15px;
+        width: 100%;
+    }
+
+    .modal-footer--custom {
+        padding-left: 90px;
+    }
 }
